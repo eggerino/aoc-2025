@@ -75,29 +75,3 @@ fn part2(input: &str) {
 
     println!("Part 2: {}", result);
 }
-
-// data = open(0).read().splitlines()
-// ops = data[-1].split()
-
-// nums = []
-// for digits in zip(*data[:-1]):
-//     as_str = "".join(digits)
-//     nums.append(int(as_str) if not as_str.isspace() else None)
-
-// nums = iter(nums)
-// result = 0
-
-// for op in ops:
-//     cur = 0 if op == "+" else 1
-
-//     num = cur
-//     while num != None:
-//         cur = cur + num if op == "+" else cur * num
-//         try:
-//             num = next(nums)
-//         except:
-//             break
-
-//     result += cur
-
-// print(result)
